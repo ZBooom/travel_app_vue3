@@ -16,8 +16,8 @@ import "vant/lib/index.css";
 const app = createApp(App);
 const pinia = createPinia();
 
-app.use(pinia);
 pinia.use(piniaPluginPersistedstate);
+app.use(pinia);
 // app.use(axios)
 // app.use(createPinia())
 app.use(router);

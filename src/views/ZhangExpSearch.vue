@@ -159,8 +159,7 @@ const zqj_toggleHotSearch = () => {
 
 // 组件挂载
 onMounted(() => {
-    // 初始化搜索历史
-    searchHistoryStore.zqj_initHistory()
+    // 使用持久化插件后，搜索历史会自动恢复，无需手动初始化
 
     // 自动聚焦搜索框
     nextTick(() => {
