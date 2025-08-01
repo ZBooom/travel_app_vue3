@@ -1,0 +1,419 @@
+{ 
+    "zproducts": [
+        {
+            "id": 1,
+            "product": {
+                "img": "g1.jpg",
+                "name": "HONOR/荣耀X60 Pro 5G智能手机6600mAh青海湖电池绿洲护眼屏AI 抗摔防水",
+                "price": "¥1199.00",
+                "sales": "销量100+",
+                "tags": ["送货上门", "假一赔十"],
+                "description": "荣耀X60Pro是一款高性能5G手机，搭载最新处理器，支持高速网络连接，配备高清摄像头和长续航电池。"
+            }
+        },
+        {
+            "id": 2,
+            "product": {
+                "img": "g2.jpg",
+                "name": "【玫瑰花】10枝装特价云南鲜花直发节日鲜花礼物花束",
+                "price": "¥12.90",
+                "sales": "销量2万+",
+                "tags": ["京东自营", "送货上门", "假一赔十"],
+                "description": "这款玫瑰花束采用优质云南玫瑰，颜色鲜艳，适合节日或送礼，包装精美，配送快速。"
+            }
+        },
+        {
+            "id": 3,
+            "product": {
+                "img": "g3.jpg",
+                "name": "SANWA SUPPLY人体工学有线键盘 腕托一体 附脚架",
+                "price": "¥249.00",
+                "sales": "销量400+",
+                "tags": ["送货上门", "假一赔十"],
+                "description": "SANWA SUPPLY人体工学键盘采用舒适的腕托设计，减少长时间使用时的手腕疲劳，附带脚架支持多角度调节，提升打字体验。"
+            }
+        },
+        {
+            "id": 4,
+            "product": {
+                "img": "g4.jpg",
+                "name": "小米（MI）Xiaomi智能音箱Pro超级小爱智能音箱",
+                "price": "¥299.00",
+                "sales": "销量600万+",
+                "tags": ["京东自营", "送货上门", "假一赔十"],
+                "description": "小米智能音箱Pro是小爱同学的旗舰产品，支持语音控制家居设备，内置高品质扬声器，音质清晰，适合家庭娱乐和办公使用。"
+            }
+        },
+        {
+            "id": 5,
+            "product": {
+                "img": "g5.jpg",
+                "name": "公牛（BULL）PDU机柜插座/插线板/插排/接线板",
+                "price": "¥117.50",
+                "sales": "销量70万+",
+                "tags": ["京东自营", "送货上门", "假一赔十"],
+                "description": "公牛PDU机柜插座采用优质材料制成，具有过载保护功能，支持多设备同时使用，适合家庭和办公环境。"
+            }
+        },
+        {
+            "id": 6,
+            "product": {
+                "img": "g6.jpg",
+                "name": "100万亿津巴布韦一百万亿金箔钞百万亿纪念币彩色工艺品观赏",
+                "price": "¥24.00",
+                "sales": "销量2000+",
+                "tags": ["送货上门", "假一赔十"],
+                "description": "这款津巴布韦纪念币采用金箔材质，图案精美，具有收藏价值，适合钱币爱好者和礼品赠送。"
+            }
+        },
+        {
+            "id": 7,
+            "product": {
+                "img": "g7.jpg",
+                "name": "安踏（ANTA）毒刺4男鞋夏季减震回弹网面透气跑步鞋男软底",
+                "price": "¥289.00",
+                "sales": "销量800+",
+                "tags": ["送货上门", "假一赔十"],
+                "description": "安踏毒刺4男鞋采用轻量化网面设计，提供良好的透气性和舒适性，减震回弹科技有效缓解跑步时的冲击力，适合日常跑步和健身。"
+            }
+        },
+        {
+            "id": 8,
+            "product": {
+                "img": "g8.jpg",
+                "name": "京东京造10A抑菌男士内裤男纯棉平角内裤大码男生四角短",
+                "price": "¥39.89",
+                "sales": "销量100万+",
+                "tags": ["京东自营", "送货上门", "假一赔十"],
+                "description": "京东京造男士内裤采用100%纯棉材质，柔软透气，具有抑菌功能，适合日常穿着，大码设计适合不同体型。"
+            }
+        },
+        {
+            "id": 9,
+            "product": {
+                "img": "g9.jpg",
+                "name": "景彩电脑桌折叠桌子书桌学习桌家用桌子JDZ10胡桃80*48",
+                "price": "¥179.00",
+                "sales": "销量1000+",
+                "tags": ["京东自营", "送货上门", "假一赔十"],
+                "description": "景彩电脑桌采用胡桃木材质，桌面宽敞，支持折叠设计，节省空间，适合家庭办公和学习使用。"
+            }
+        },
+        {
+            "id": 10,
+            "product": {
+                "img": "g10.jpg",
+                "name": "京东京造 免洗手平板拖把 家用一拖净拖地神器懒人拖把",
+                "price": "¥39.90",
+                "sales": "销量100万+",
+                "tags": ["京东自营", "送货上门", "假一赔十"],
+                "description": "京东京造免洗手平板拖把采用高科技材料，无需频繁清洗，拖地效果出色，适合懒人和忙碌的家庭使用。"
+            }
+        }
+    ]
+,
+  "zbooktabs": [
+    { "key": "train",      "label": "火车票" },
+    { "key": "hotel",  "label": "机票"   },
+    { "key": "carpool",    "label": "全球免税" },
+    { "key": "insurance",      "label": "保险"   }
+  ],
+  "zbooktitles": [
+    {
+      "key": "train",
+      "left": "订火车票",
+      "right": "购票便捷 售后保障 出行安心"
+    },
+    {
+      "key": "hotel",
+      "left": "安心机票",
+      "right": "无加价·无捆绑·无套路"
+    },
+    {
+      "key": "carpool",
+      "left": "全球免税",
+      "right": "国企直营·正品保障"
+    },
+    {
+      "key": "insurance",
+      "left": "甄选保险",
+      "right": "高性价比·理赔省心·平台保障"
+    }
+  ],
+  "zbookcontent": [
+  {
+    "key": "train",
+    "departureCity": "北京",
+    "arrivalCity": "上海",
+    "departureDate": "5 月 27 日",
+    "features": [
+         { "icon": "dingwei", "label": "火车轨迹" },
+        { "icon": "icon-test",      "label": "有票神器" },
+        { "icon": "arrow_right_fat",      "label": "查看订单" }
+
+    ]
+  },
+  { "key": "insurance", "message": "404 - 暂无内容" },
+  { "key": "carpool",   "message": "404 - 暂无内容" },
+  { "key": "hotel",     "message": "404 - 暂无内容" }
+],
+    "zcontent": [
+        {
+            "id": 1,
+            "image": "1.jpg",
+            "title": "北京故宫深度游攻略，带你领略皇家宫殿的壮丽与神秘",
+            "content": "故宫作为中国明清两代的皇家宫殿，拥有丰富的历史文化底蕴。本文将为大家详细介绍故宫的游览路线、必看景点、文物珍藏等内容，让你在有限的时间内充分感受这座世界文化遗产的魅力。从午门到神武门，每一处建筑都承载着深厚的历史底蕴。",
+            "userAvatar": "1.jpg",
+            "userName": "故宫文化爱好者",
+            "likeCount": 1256,
+            "publishDate": "2024-09-04",
+            "comments": [
+                {
+                    "id": 1,
+                    "userName": "白水之聿",
+                    "userAvatar": "2.jpg",
+                    "content": "写得真详细，下次去北京一定要按照这个攻略走",
+                    "publishTime": "2024-09-05 14:30",
+                    "likeCount": 23
+                },
+                {
+                    "id": 2,
+                    "userName": "夕阳下的歌",
+                    "userAvatar": "3.jpg",
+                    "content": "故宫确实很震撼，每次去都有新的发现",
+                    "publishTime": "2024-09-05 16:45",
+                    "likeCount": 18
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "image": "2.jpg",
+            "title": "上海外滩夜景摄影技巧分享",
+            "content": "外滩作为上海的地标性景点，夜景尤为迷人。本文分享拍摄外滩夜景的最佳时间、角度和参数设置。",
+            "userAvatar": "2.jpg",
+            "userName": "摄影师小王",
+            "likeCount": 856,
+            "publishDate": "2024-09-03",
+            "comments": [
+                {
+                    "id": 1,
+                    "userName": "光影追梦人",
+                    "userAvatar": "4.jpg",
+                    "content": "参数设置很实用，学到了",
+                    "publishTime": "2024-09-04 10:20",
+                    "likeCount": 12
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "image": "d3.jpg",
+            "title": "西湖春色正好，最佳赏花路线推荐",
+            "content": "春天的西湖美不胜收，桃花、樱花、油菜花竞相开放。推荐最佳的赏花路线和拍照地点。",
+            "userAvatar": "3.jpg",
+            "userName": "杭州本地向导",
+            "likeCount": 2134,
+            "publishDate": "2024-09-02",
+            "comments": [
+                {
+                    "id": 1,
+                    "userName": "春游达人",
+                    "userAvatar": "5.jpg",
+                    "content": "正好要去杭州，收藏了",
+                    "publishTime": "2024-09-03 09:15",
+                    "likeCount": 8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "image": "4.jpg",
+            "title": "成都美食探店，地道川菜让你欲罢不能",
+            "content": "成都不仅有可爱的大熊猫，更有让人垂涎三尺的美食。从街头小吃到高档餐厅，每一道菜都是味蕾的盛宴。",
+            "userAvatar": "4.jpg",
+            "userName": "美食博主小李",
+            "likeCount": 3245,
+            "publishDate": "2024-09-01",
+            "comments": [
+                {
+                    "id": 1,
+                    "userName": "吃货小分队",
+                    "userAvatar": "6.jpg",
+                    "content": "流口水了，必须去试试",
+                    "publishTime": "2024-09-02 20:30",
+                    "likeCount": 45
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "image": "5.jpg",
+            "title": "丽江古城慢生活体验记",
+            "content": "在丽江古城的石板路上漫步，感受纳西族的文化魅力，体验真正的慢生活节奏。",
+            "userAvatar": "5.jpg",
+            "userName": "旅行作家老张",
+            "likeCount": 1567,
+            "publishDate": "2024-08-30",
+            "comments": []
+        },
+        {
+            "id": 6,
+            "image": "6.jpg",
+            "title": "青海湖环湖骑行攻略",
+            "content": "青海湖的美需要用心感受，骑行是最好的方式。分享环湖骑行的路线规划和注意事项。",
+            "userAvatar": "6.jpg",
+            "userName": "骑行达人",
+            "likeCount": 892,
+            "publishDate": "2024-08-28",
+            "comments": [
+                {
+                    "id": 1,
+                    "userName": "户外爱好者",
+                    "userAvatar": "1.jpg",
+                    "content": "太美了，有时间一定要去",
+                    "publishTime": "2024-08-29 16:20",
+                    "likeCount": 6
+                }
+            ]
+        },
+        {
+          "id": 7,
+          "image": "d2.jpg",
+          "title": "丽江古城慢生活体验记",
+          "content": "在丽江古城的石板路上漫步，感受纳西族的文化魅力，体验真正的慢生活节奏。",
+          "userAvatar": "5.jpg",
+          "userName": "旅行作家老张",
+          "likeCount": 1567,
+          "publishDate": "2024-08-30",
+          "comments": []
+      },
+      {
+        "id": 8,
+        "image": "g1.jpg",
+        "title": "丽江古城慢生活体验记",
+        "content": "在丽江古城的石板路上漫步，感受纳西族的文化魅力，体验真正的慢生活节奏。",
+        "userAvatar": "5.jpg",
+        "userName": "旅行作家老张",
+        "likeCount": 1567,
+        "publishDate": "2024-08-30",
+        "comments": []
+    }
+    ],
+    "zflights": [
+    {
+      "id": 1,
+      "date": "2025-05-05",
+      "airlineName": "南方航空",
+      "airlineIcon": "nanfanghangkong",
+      "flightNumber": "CZ6122",
+      "departureTime": "16:10",
+      "departureAirport": "北京大兴",
+      "arrivalTime": "17:30",
+      "arrivalAirport": "大连周水子",
+      "used": "已使用"
+    },
+    {
+      "id": 2,
+      "date": "2025-04-10",
+      "airlineName": "南方航空",
+      "airlineIcon": "nanfanghangkong",
+      "flightNumber": "CZ6128",
+      "departureTime": "19:15",
+      "departureAirport": "北京大兴",
+      "arrivalTime": "20:30",
+      "arrivalAirport": "大连周水子",
+      "used": "已使用"
+    },
+    {
+      "id": 3,
+      "date": "2025-04-10",
+      "airlineName": "南方航空",
+      "airlineIcon": "nanfanghangkong",
+      "flightNumber": "CZ356",
+      "departureTime": "13:40",
+      "departureAirport": "香港国际",
+      "arrivalTime": "16:55",
+      "arrivalAirport": "北京大兴",
+      "used": "已使用"
+    },
+    {
+      "id": 4,
+      "date": "2025-04-01",
+      "airlineName": "东方航空",
+      "airlineIcon": "dongfanghangkong",
+      "flightNumber": "MU5123",
+      "departureTime": "08:20",
+      "departureAirport": "上海虹桥",
+      "arrivalTime": "10:50",
+      "arrivalAirport": "广州白云",
+      "used": "已使用"
+    },
+    {
+      "id": 5,
+      "date": "2025-03-15",
+      "airlineName": "中国国际航空",
+      "airlineIcon": "dongfanghangkong",
+      "flightNumber": "CA1150",
+      "departureTime": "07:00",
+      "departureAirport": "北京首都",
+      "arrivalTime": "09:30",
+      "arrivalAirport": "上海浦东",
+      "used": "已使用"
+    },
+    {
+      "id": 6,
+      "date": "2025-02-02",
+      "airlineName": "海南航空",
+      "airlineIcon": "hainanhangkong",
+      "flightNumber": "HU7886",
+      "departureTime": "12:15",
+      "departureAirport": "成都双流",
+      "arrivalTime": "14:45",
+      "arrivalAirport": "深圳宝安",
+      "used": "已使用"
+    }
+  ],
+  "zsettings": [
+    {
+        "id": 1,
+        "category": "账号与安全"
+    },
+    {
+        "id": 2,
+        "category": "消息设置"
+    },
+    {
+        "id": 3,
+        "category": "行程设置"
+    },
+    {
+        "id": 4,
+        "category": "个性设置"
+    },
+    {
+        "id": 5,
+        "category": "其他设置"
+    },
+    {
+        "id": 6,
+        "category": "我要评分"
+    },
+    {
+        "id": 7,
+        "category": "关于"
+    },
+    {
+        "id": 8,
+        "category": "个人信息收集清单"
+    },
+    {
+        "id": 9,
+        "category": "第三方共享个人信息清单"
+    },
+    {
+        "id": 10,
+        "category": "资质执照"
+    }
+]
+}
