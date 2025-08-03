@@ -60,7 +60,6 @@ export const useSearchHistoryStore = defineStore(
     persist: {
       key: "zqj_expSearchHistory",
       storage: localStorage,
-      paths: ["zqj_searchHistory"],
     },
   }
 );
