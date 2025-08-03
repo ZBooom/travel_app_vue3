@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/travel_app_vue3/',
   plugins: [
     vue(),
     // vueDevTools(),
