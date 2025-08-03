@@ -121,7 +121,7 @@ async function loadTitles() {
 // 方法：加载内容数据
 async function loadContent(tabKey) {
     try {
-        const res = await axios.get(`?key=${tabKey}`)
+        const res = await axios.get(`https://zbooom.github.io/travel_app_vue3/zhangdb.json?key=${tabKey}`)
         content.value = res.data.zbookcontent[0] || { message: '404 - 暂无内容' }
     } catch (err) {
         console.error('加载内容数据失败:', err)

@@ -150,7 +150,7 @@ const zqj_getContentDetail = async () => {
         console.log('获取内容详情，ID:', contentId)
 
         // 使用JSON-Server的查询参数格式
-        const response = await axios.get(`?id=${contentId}`)
+        const response = await axios.get(`https://zbooom.github.io/travel_app_vue3/zhangdb.json?id=${contentId}`)
         console.log('内容详情数据:', response.data.zcontent)
 
         // JSON-Server返回的是数组，需要取第一个元素
