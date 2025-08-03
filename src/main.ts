@@ -26,6 +26,6 @@ app.use(Vant);
 app.provide("name", "Zhangqijian");
 app.provide("$axios", axios);
 // baseurl为http://localhost:3000/zproducts
-axios.defaults.baseURL = "http://localhost:3000/";
+axios.defaults.baseURL = "https://zbooom.github.io/travel_app_vue3/zhangdb.json";
 
 app.mount("#app");

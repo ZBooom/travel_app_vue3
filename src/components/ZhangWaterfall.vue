@@ -40,8 +40,8 @@ const zqj_loading = ref(false)
 const zqj_getContentList = async () => {
     zqj_loading.value = true
     try {
-        const response = await axios.get('http://localhost:3000/zcontent')
-        zqj_contentList.value = response.data
+        const response = await axios.get('')
+        zqj_contentList.value = response.data.zcontent
         zqj_distributeContent()
     } catch (error) {
         console.error('获取内容数据失败:', error)
