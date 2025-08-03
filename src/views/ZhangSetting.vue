@@ -43,9 +43,9 @@ const zqj_settingsData = ref([])
 // 获取设置数据
 const zqj_getSettingsData = async () => {
     try {
-        const response = await axios.get('http://localhost:3000/zsettings')
-        zqj_settingsData.value = response.data
-        console.log('设置数据加载成功:', response.data)
+        const response = await axios.get('')
+        zqj_settingsData.value = response.data.zsettings
+        console.log('设置数据加载成功:', response.data.zsettings)
     } catch (error) {
         console.error('获取设置数据失败:', error)
     }

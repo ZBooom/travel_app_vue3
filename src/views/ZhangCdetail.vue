@@ -150,12 +150,12 @@ const zqj_getContentDetail = async () => {
         console.log('获取内容详情，ID:', contentId)
 
         // 使用JSON-Server的查询参数格式
-        const response = await axios.get(`/zcontent?id=${contentId}`)
-        console.log('内容详情数据:', response.data)
+        const response = await axios.get(`?id=${contentId}`)
+        console.log('内容详情数据:', response.data.zcontent)
 
         // JSON-Server返回的是数组，需要取第一个元素
-        if (response.data && response.data.length > 0) {
-            zqj_contentData.value = response.data[0]
+        if (response.data.zcontent && response.data.zcontent.length > 0) {
+            zqj_contentData.value = response.data.zcontent[0]
         } else {
             console.error('未找到对应ID的内容')
         }

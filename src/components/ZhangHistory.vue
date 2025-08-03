@@ -54,8 +54,8 @@ const loading = ref(true)
 // 从 json-server 拉取航班数据
 const fetchFlights = async () => {
     try {
-        const response = await axios.get('/zflights')
-        flights.value = response.data
+        const response = await axios.get('')
+        flights.value = response.data.zflights
     } catch (err) {
         console.error('请求失败:', err)
     } finally {

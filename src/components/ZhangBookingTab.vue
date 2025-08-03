@@ -101,8 +101,8 @@ const currentTitle = computed(() => {
 // 方法：加载导航 Tabs
 async function loadTabs() {
     try {
-        const res = await axios.get('/zbooktabs')
-        zqjTabs.value = res.data
+        const res = await axios.get('')
+        zqjTabs.value = res.data.zbooktabs
     } catch (err) {
         console.error('加载导航Tabs失败:', err)
     }
@@ -111,8 +111,8 @@ async function loadTabs() {
 // 方法：加载标题数据
 async function loadTitles() {
     try {
-        const res = await axios.get('/zbooktitles')
-        zqjTitles.value = res.data
+        const res = await axios.get('')
+        zqjTitles.value = res.data.zbooktitles
     } catch (err) {
         console.error('加载标题数据失败:', err)
     }
@@ -121,8 +121,8 @@ async function loadTitles() {
 // 方法：加载内容数据
 async function loadContent(tabKey) {
     try {
-        const res = await axios.get(`/zbookcontent?key=${tabKey}`)
-        content.value = res.data[0] || { message: '404 - 暂无内容' }
+        const res = await axios.get(`?key=${tabKey}`)
+        content.value = res.data.zbookcontent[0] || { message: '404 - 暂无内容' }
     } catch (err) {
         console.error('加载内容数据失败:', err)
         content.value = { message: '404 - 暂无内容' }
