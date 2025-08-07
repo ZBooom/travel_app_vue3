@@ -146,18 +146,34 @@ const zqj_formatCount = (count) => {
 // 获取内容详情
 const zqj_getContentDetail = async () => {
     try {
-        const contentId = route.params.id
+        const contentId = parseInt(route.params.id)
         console.log('获取内容详情，ID:', contentId)
 
-        // 使用JSON-Server的查询参数格式
-        const response = await axios.get(`https://zbooom.github.io/travel_app_vue3/zhangdb.json?id=${contentId}`)
-        console.log('内容详情数据:', response.data.zcontent)
+        // 获取完整的 JSON 数据
+        const response = await axios.get(`https://zbooom.github.io/travel_app_vue3/zhangdb.json`)
+        console.log('所有内容数据:', response.data.zcontent)
 
-        // JSON-Server返回的是数组，需要取第一个元素
+        // 在客户端根据 ID 过滤数据
         if (response.data.zcontent && response.data.zcontent.length > 0) {
-            zqj_contentData.value = response.data.zcontent[0]
+            const foundContent = response.data.zcontent.find(item => item.id === contentId)
+            if (foundContent) {
+                zqj_contentData.value = foundContent
+                console.log('找到对应内容:', foundContent)
+            } else {
+                console.error('未找到对应ID的内容:', contentId)
+                // 可以设置一个默认的错误状态
+                zqj_contentData.value = { 
+                    title: '内容不存在', 
+                    content: '抱歉，未找到对应的内容',
+                    userName: '系统',
+                    userAvatar: '1.jpg',
+                    likeCount: 0,
+                    publishDate: new Date().toISOString().split('T')[0],
+                    comments: []
+                }
+            }
         } else {
-            console.error('未找到对应ID的内容')
+            console.error('数据格式错误或无内容')
         }
     } catch (error) {
         console.error('获取内容详情失败:', error)
