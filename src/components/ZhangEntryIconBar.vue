@@ -30,7 +30,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, nextTick } from 'vue'
+import { ref, onMounted, onUnmounted, nextTick } from 'vue'
 import '@/assets/fonts/iconfont/iconfont.js'
 
 const zqj_firstPage = [
@@ -83,8 +83,19 @@ const zqj_onSwipeChange = (index) => {
     zqj_updateHeight(index)
 }
 
+
+// 监听窗口大小变化，动态调整高度
+const handleResize = () => {
+    zqj_updateHeight(zqj_currentPage.value)
+}
+
 onMounted(() => {
     zqj_updateHeight(0)
+    window.addEventListener('resize', handleResize)
+})
+
+onUnmounted(() => {
+    window.removeEventListener('resize', handleResize)
 })
 </script>
 
